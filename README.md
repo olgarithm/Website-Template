@@ -1,5 +1,13 @@
 # Website-Template
-A template to use for a personal website!
+A template to use for a personal website! 
+
+There are four different files in this repo: 
+1. **index.html** (template for this website with several in-line comments explaining tags and HTML concepts)
+2. **index_finished.html** (a filled out template with my information with comments)
+3. **index_uncommented.html** (template for this website without comments)
+4. **index_finished_uncommented.html** (a filled out template with my information without comments)
+
+Pick your favorite file to edit, but if you're uploading this to Github later and not using "index.html" make sure to rename your file to "index.html" because that's the file that Github loads on Github Pages.
 
 ## Resources to Use 
 * [Google Fonts](https://fonts.google.com/)
