@@ -64,7 +64,7 @@ p {
 }
 
 #resume-link {
-	color: white;
+	color: white; /* Text within an "a" tag automatically changes to a blue color, but we want to override that so that it will display white */
 }
 
 #resume-link:hover {
