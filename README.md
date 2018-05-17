@@ -24,11 +24,19 @@ Pick your favorite file to edit, but if you're uploading this to Github later an
 * `<br/>`: A line break. It's self-closing!
 
 ## Resources to Use 
+There's a lot of cool web development resources!
+
+### CSS
 * [Google Fonts](https://fonts.google.com/)
 * [Hex Color Picker](http://uicolor.xyz/#/hex-to-ui)
 * [CSS Properties and What They Do](https://www.w3schools.com/cssref/)
 * [Favicons (That lil image in the tab)](https://www.freefavicon.com/freefavicons/objects/)
 * [Adding Emojis](https://afeld.github.io/emoji-css/)
+
+### JavaScript
+* [Embedded PDF (Good for resumes!)](https://pdfobject.com/)
+* [Loading GIF While Page Loads](https://smallenvelop.com/display-loading-icon-page-loads-completely/)
+* [Animated SVGs](http://maxwellito.github.io/vivus/)
 
 ## Some Website Inspirations
 * [Super cool + interactive website](http://www.rleonardi.com/interactive-resume/)
