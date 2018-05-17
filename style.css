@@ -4,6 +4,10 @@ body {
 	color: white;
 }
 
+h2 {
+	text-decoration: underline
+}
+
 #about-me {
 	margin-top: 5%;
 }
