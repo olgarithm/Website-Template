@@ -6,6 +6,7 @@ body {
 }
 
 h2 {
+	font-size: 18pt; /* Lets you change the size of the font. */
 	text-decoration: underline; /* Underlines the text. Try "overline", "line-through", or some combo! */
 }
 
@@ -27,8 +28,8 @@ h2 {
 
 /* CSS selectors can be grouped! All elements with these ids have these properties*/
 #about-me, #projects, #classes, #contact {
-	margin-left: 30%;
-	margin-right: 30%;
+	margin-left: 28%;
+	margin-right: 28%;
 }
 
 #contact-icons {
