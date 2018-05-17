@@ -1,7 +1,7 @@
 /* Put anything under the body selector that you want to see across the entire website! */
 body {
-	font-family: "PT Serif"; /* Imported from Google fonts, needs a corresponding "link" tag in the HTML*/
-	background-color: #360773; /* A HEX number that represents a purple color */
+	font-family: "Open Sans"; /* Imported from Google fonts, needs a corresponding "link" tag in the HTML*/
+	background-color: #360773; /* A HEX value that represents a purple color */
 	color: white; /* Seems unintuitive, but this stands for text-color! */
 }
 
@@ -16,35 +16,6 @@ h2 {
 
 p {
 	font-size: 13pt;
-}
-
-.column .image-container img {
-  margin-top: 8px;
-  vertical-align: middle;
-  height: 150px;
-  width: auto;
-  border-color: #000000;
-  border-width: 3.5px;
-  border-style: solid;
-  border-radius: 2px;
-}
-
-.image-container {
-  position: relative;
-  display: inline-block;
-  padding-left: 40px;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-  z-index: 1;
 }
 
 #about-me {
@@ -63,10 +34,41 @@ p {
 	margin-top: 6%; /* Starts the projects div 6% away from #about-me */
 }
 
-/* CSS selectors can be grouped! All elements with these ids have these properties*/
-#about-me, #projects, #classes, #contact {
+.image-container {
+	display: inline-block; /* Each element with the "image-container" class should be displayed side-by-side, but should also be interpreted as a separate block item */
+	padding-left: 40px; 
+}
+
+/* This CSS selector is selecting "img" tags that are inside of the element with the 
+   "image-container" class */
+.image-container img {
+	margin-top: 8px;
+	height: 150px;
+	width: auto;
+	border-width: 3.5px;
+	border-style: solid;
+	border-color: black;	
+	/* The three above properties can also be written in one line- "border: 3.5px solid black" */
+	border-radius: 2px;
+}
+
+/* When an image in an ".image-container" element is hovered over, displays a drop shadow */
+.image-container img:hover {
+	box-shadow: 5px 5px 10px black; /* A shadow that is displaced 5px to the left and 5px down with a blur of 10px */
+}
+
+/* CSS selectors can be grouped! All elements with these ids have these properties */
+#about-me, #projects, #classes, #contact, #resume {
 	margin-left: 28%;
 	margin-right: 28%;
+}
+
+#resume-link {
+	color: white;
+}
+
+#resume-link:hover {
+	color: yellow;
 }
 
 #contact-icons {
@@ -91,8 +93,7 @@ p {
 }
 
 /* This CSS selector is fun- we're telling the HTML that images that are links (use the "a") tag
-   should have a bottom border when highlighted */
+   should have a a solid white 3px thick bottom border when highlighted */
 a:hover > img {
-    border-bottom: 3px solid #FFFFFF;
+    border-bottom: 3px solid white;
 }
-

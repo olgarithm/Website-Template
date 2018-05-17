@@ -10,7 +10,7 @@
 		<!-- Here is where you tell your HTML where to look for in term of styling the page. We've linked a favicon (lil image that shows up in the tab), external CSS page ("style.css") and a Google Fonts font-->
 		<link rel="icon" type="image/x-icon" href="img/tag-favicon.ico">
 		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=PT+Serif">
+		<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
 	</head>
 	<!-- Here's where the fun begins! Stuff inside of the body tag is displayed on the page. -->
 	<body>
@@ -26,6 +26,7 @@
 			<h2>Projects</h2> <!-- "h2" means header2. Use it for less important headers than h1. -->
 			<p>Here are some projects I've worked on:</p>
 			<div class="column">
+				<!-- We're wrapping an "img" tag in a "a" tag, so when you click on the image, it redirects you to whatever link is referenced in the "href" property. target="_" means it will open the link in a new tab. -->
 				<a href="https://olgatron9000.github.io/2017-in-Review/" target="_">
 					<div class="image-container">
 						<img src="img/2017.png" alt="2017 in Review">
@@ -57,12 +58,14 @@
 				<!-- Each "li" (list object) is a different class -->
 				<li>CSE 142/143</li>
 				<li>CSE 154</li>
-				<li>MATH 126</li>
+				<li>CSE 332</li>
+				<li>MATH 308</li>
 			</ul>
 		</div>
 		<br/>
 		<div id="contact">
 			<h2>Contact Me</h2>
+			<p>Interested in learning more? Check out <a href="https://drive.google.com/open?id=1EakoT6DMCR4feT2tN2t2mMAHBSl6Th5g" id="resume-link" target="_">my resume!</a></p>
 			<p>Interested in connecting?</p>
 			<!-- "ul" stands for unordered list: it's a list with bullet points rather than numbers. Try making an "ol" (ordered list). -->
 			<ul id="contact-icons">
