@@ -11,8 +11,8 @@ Pick your favorite file to edit, but if you're uploading this to Github later an
 
 ## A Brief Overview of HTML Tags
 * `<head>`: Where we link to external stylesheets, specify a favicon, and list any metadata.
-* `<title>`: The title of the webpage. What shows up in the tab.
-* `<link>`: Normally inside of `<head>`, allows us to reference files outside of this HTML file.
+..* `<title>`: Normally inside of `<head>`, the title of the webpage and what shows up in the tab.
+..* `<link>`: Normally inside of `<head>`, allows us to reference files outside of this HTML file.
 * `<body>`: Contains all the content that someone will see on the website.
 * `<div>`: A way to group together related content.
 * `<img>`: An image. Normally contains a `src` attribute that tells the webpage where to get the image from. Should also include an `alt` attribute that describes what the image is for accessibility.
