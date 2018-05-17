@@ -1,13 +1,50 @@
 /* Put anything under the body selector that you want to see across the entire website! */
 body {
-	font-family: Lato; /* Imported from Google fonts, needs a corresponding "link" tag in the HTML*/
-	background-color: #5A11B8; /* A HEX number that represents a purple color */
+	font-family: "PT Serif"; /* Imported from Google fonts, needs a corresponding "link" tag in the HTML*/
+	background-color: #360773; /* A HEX number that represents a purple color */
 	color: white; /* Seems unintuitive, but this stands for text-color! */
 }
 
+h1 {
+	font-size: 27pt; /* Lets you change the size of the font. */
+}
+
 h2 {
-	font-size: 18pt; /* Lets you change the size of the font. */
+	font-size: 22pt; 
 	text-decoration: underline; /* Underlines the text. Try "overline", "line-through", or some combo! */
+}
+
+p {
+	font-size: 13pt;
+}
+
+.column .image-container img {
+  margin-top: 8px;
+  vertical-align: middle;
+  height: 150px;
+  width: auto;
+  border-color: #000000;
+  border-width: 3.5px;
+  border-style: solid;
+  border-radius: 2px;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  padding-left: 40px;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
 }
 
 #about-me {
@@ -15,7 +52,7 @@ h2 {
 }
 
 #self-photo {
-	height: 300px;
+	height: 250px;
 	width: auto; /* Scales the width relative to the height*/
 	border-radius: 150px; /* Rounds the corners of the image by 150px */
 	float: left; /* Allows text to be to the right of the image */
@@ -23,7 +60,7 @@ h2 {
 }
 
 #projects {
-	margin-top: 10%; /* Starts the projects div 10% away from #about-me */
+	margin-top: 6%; /* Starts the projects div 6% away from #about-me */
 }
 
 /* CSS selectors can be grouped! All elements with these ids have these properties*/
@@ -46,11 +83,11 @@ h2 {
 /* This CSS selector is selecting img tags that are inside of the element with the 
    "contact-icons" id */
 #contact-icons img {
-  width: 30px;
-  height: auto;
-  margin-right: 10px;
-  padding-bottom: 7px;
-  vertical-align: middle; 
+	width: 30px;
+	height: auto;
+	margin-right: 10px;
+	padding-bottom: 10px;
+	vertical-align: top;
 }
 
 /* This CSS selector is fun- we're telling the HTML that images that are links (use the "a") tag
