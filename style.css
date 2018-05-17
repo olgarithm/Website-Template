@@ -1,32 +1,31 @@
+/* Put anything under the body selector that you want to see across the entire website! */
 body {
-	font-family: Lato;
-	background-color: #5A11B8;
-	color: white;
+	font-family: Lato; /* Imported from Google fonts, needs a corresponding "link" tag in the HTML*/
+	background-color: #5A11B8; /* A HEX number that represents a purple color */
+	color: white; /* Seems unintuitive, but this stands for text-color! */
 }
 
 h2 {
-	text-decoration: underline
+	text-decoration: underline; /* Underlines the text. Try "overline", "line-through", or some combo! */
 }
 
 #about-me {
-	margin-top: 5%;
+	margin-top: 5%; /* Pushes down the "div" 5% down the page */
 }
 
 #self-photo {
-	align-content: center;
 	height: 300px;
-	width: auto;
-	display: block;
-	border-radius: 180px; 
-	text-align: middle;
-	float: left;
-	margin-right: 30px;
+	width: auto; /* Scales the width relative to the height*/
+	border-radius: 150px; /* Rounds the corners of the image by 150px */
+	float: left; /* Allows text to be to the right of the image */
+	margin-right: 30px; /* Gives breathing room between image and the text */
 }
 
 #projects {
-	margin-top: 10%;
+	margin-top: 10%; /* Starts the projects div 10% away from #about-me */
 }
 
+/* CSS selectors can be grouped! All elements with these ids have these properties*/
 #about-me, #projects, #classes, #contact {
 	margin-left: 30%;
 	margin-right: 30%;
@@ -34,21 +33,28 @@ h2 {
 
 #contact-icons {
 	list-style-type: none; /* Gets rid of the bullet points associated with list items */
-	padding-left: 0px;
+	padding-left: 0px; /* Gets rid of the indentation associated with list items */
 }
 
+/* This CSS selector is selecting "li" tags that are inside of the element with the 
+   "contact-icons" id */
 #contact-icons li {
 	display: inline; /* Shows all the icons in-line rather than all on separate lines */
 }
 
+/* This CSS selector is selecting img tags that are inside of the element with the 
+   "contact-icons" id */
 #contact-icons img {
   width: 30px;
   height: auto;
   margin-right: 10px;
   padding-bottom: 7px;
-  vertical-align: middle;
+  vertical-align: middle; 
 }
 
+/* This CSS selector is fun- we're telling the HTML that images that are links (use the "a") tag
+   should have a bottom border when highlighted */
 a:hover > img {
     border-bottom: 3px solid #FFFFFF;
 }
+
